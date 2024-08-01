@@ -21,6 +21,9 @@ namespace TypesAndVariables
             bool no5 = false; // bool(boolean) veri tipi sadece true(1) veya false (0) tutabileceğimiz veri tipidir.
             char no6 = 'a'; ; // char  ile tek bir harf ataması yapabiliyoruz. 
             double no7 = 10.4; // double ile kesirli sayıların atamasını yapaibliriz. 
+            decimal no8 = 18.5m; // daha hassas durumlar için kullanılır. sonuna m eklenir. 
+            var no9 = 67;  // şeklinde atama yaparsak var en uygun değişkeni bulur ve atamasını tamamlar. 
+            // bundan sonra no9 isimli değişken sadece int değer ataması yapılabilir. 
 
 
 
@@ -31,6 +34,8 @@ namespace TypesAndVariables
             Console.WriteLine(no5);
             Console.WriteLine(no6);
             Console.WriteLine(no7);
+            Console.WriteLine(no8);
+            Console.WriteLine(no9);
 
             Console.ReadLine();
         }
