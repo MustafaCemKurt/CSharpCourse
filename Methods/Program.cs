@@ -35,6 +35,29 @@ namespace Methods
             return v1 + v2;
         }
 
+        static int multiply(int v1, int v2) // çarpoma i,şlemeini  yapan methodu atamasını yapıyoruz.
+
+        { 
+            return v1 * v2;
+
+        }
+
+        static int multiply(int v1 , int v2 , int v3)  // şeklinde aynı isim işle farklı girdilerle farklı çalışacak  şekiilde methodu overloading edebiliyoruz. 
+        {
+            return v1 * v2 *v3; 
+        }
+
+        static int Add4(int v1 , int v2 , int v3, int v4)
+        {
+            return v1 + v2 +v3 + v4;
+
+        }
+
+        static int Add5(params int[] v) // girdi kadar ilerler . dizi mantığıında çalışır. 
+        {
+            return v.Sum(); // toplama işlermi yapan method. 
+        }
+
 
 
     }
