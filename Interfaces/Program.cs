@@ -13,6 +13,11 @@ namespace Interfaces
             PersonManager personManager = new PersonManager();
             personManager.Add(new Customer { Id = 1, Firstname = "engin", Lastname = "demirog",Address="ankara" });
 
+            // interface kendi basına new'lenemez. 
+            // Iperson person = new Iperson (); kodu çalışmaz
+            // soyut olarak kullanılır. insan bir interface ve müşteri bir class oldugunda . her müşteri bir insandır. 
+
+
 
             Console.ReadLine();
         }
@@ -53,6 +58,35 @@ namespace Interfaces
             }
 
         }
+
+         interface ICustomerDal
+        {
+            void Add();
+            void Update();
+            void Delete();
+
+        }
+
+        class SqlServer:ICustomerDal
+        {
+            public void Add()
+            {
+                Console.WriteLine("hello");
+            }
+            public void Update()
+            {
+                Console.WriteLine("hello");
+            }
+            public void Delete()
+            {
+                Console.WriteLine("hello");
+            }
+
+
+
+        }
+
+
 
     }
 }
