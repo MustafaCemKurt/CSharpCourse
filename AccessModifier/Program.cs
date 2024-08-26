@@ -53,5 +53,5 @@ namespace AccessModifier
         // farklı bir projeden erişim istiyorsak  class public tanımlanmalıdır. 
 
         public int id { get; set; }
-
+    }
 }   
