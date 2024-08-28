@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferanceAndValueTypes", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{90A100BE-5C24-4CE0-89A2-B494CDC036C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{D5B5D2BB-861E-41A8-BDA5-4D1271AB4880}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{90A100BE-5C24-4CE0-89A2-B494CDC036C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90A100BE-5C24-4CE0-89A2-B494CDC036C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90A100BE-5C24-4CE0-89A2-B494CDC036C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5B5D2BB-861E-41A8-BDA5-4D1271AB4880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5B5D2BB-861E-41A8-BDA5-4D1271AB4880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5B5D2BB-861E-41A8-BDA5-4D1271AB4880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5B5D2BB-861E-41A8-BDA5-4D1271AB4880}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
