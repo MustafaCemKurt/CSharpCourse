@@ -28,6 +28,17 @@ namespace Collections
             strings.Add("Mersin");
             // strings.Add(2); şeklinde yazarsak kod çalışmaz 
 
+            // kelime anlmaı olarak sözlük anlamına gelir. 
+            // arama koleksiyonudur. anahtar ve değerinin veri tipi belirtilmelidir
+             
+            Dictionary<string,string> dictionary = new Dictionary<string,string>();
+            dictionary.Add("book", "kitap");
+            dictionary.Add("table", "tablo");
+            dictionary.Add("computer", "bilgisayar");
+            // bir anahtar ile sözlüğe erişimi sağlanması gerektriği durumlarda kullanılkır
+            Console.WriteLine(dictionary["table"]); // ile ekrana tablo yazdırabiliriz
+            Console.WriteLine(dictionary["tarak"]); // anahtar bulunamadı hatası alacağız 
+
 
 
 
